@@ -1,0 +1,106 @@
+{
+  "modules": [
+    {
+      "Crew Quarter": [
+        1,
+        2,
+        3
+      ]}, {
+      "Hygiene Stations": [
+        1,
+        2,
+        3
+      ]}, {
+      "Waste Collection System": [
+        1,
+        2,
+        3
+      ]}, {
+      "Exercise": [
+        1,
+        2,
+        3
+      ]}, {
+      "Galley and Galley Table": [
+        1,
+        2,
+        3
+      ]}, {
+      "Trash Management": [
+        1,
+        2,
+        3
+      ]}, {
+      "Multipurpose Workstations": [
+        1,
+        2,
+        3
+      ]}, {
+      "Dedicated Science Workspaces and Surfaces": [
+        1,
+        2,
+        3
+      ]}, {
+      "Glove-box": [
+        1,
+        2,
+        3
+      ]},{
+      "Crew Common Area": [
+        1,
+        2,
+        3
+      ]}, {
+      "Logistics Stowage and Location Referencing": [
+        1,
+        2,
+        3
+      ]}, {
+      "Lighting": [
+        1,
+        2,
+        3
+      ]}, {
+      "In-flight Maintenance": [
+        1,
+        2,
+        3
+      ]}, {
+      "Radiation Protection": [
+        1,
+        2,
+        3
+      ]}, {
+      "Multipurpose Airlocks": [
+        1,
+        2,
+        3
+      ]}
+  ]
+,
+  "boolean": true,
+  "color": "gold",
+  "null": null,
+  "number": 123,
+  "object": {
+    "a": "b",
+    "c": "d"
+  },
+  "string": "Hello World",
+  "class" : {
+    "array": [
+      1,
+      2,
+      3
+    ],
+    "boolean": true,
+    "color": "gold",
+    "null": null,
+    "number": 123,
+    "object": {
+      "a": "b",
+      "c": "d"
+    },
+    "string": "Hello World"
+  }
+}

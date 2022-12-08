@@ -1,0 +1,41 @@
+{
+  "unit_of_work": {
+    "time": "30mins"
+  },
+  "income": {
+    "salary": "2500"
+  },
+  "expense": {
+    "food": "300",
+    "travel": "100",
+    "insurance": "300",
+    "rent": "600",
+    "loan": "500",
+    "debt": "500"
+  },
+  "time": {
+    "work": "40",
+    "exercise": "7",
+    "cook": "15",
+    "travel": "15",
+    "study": "7",
+    "hobby": "7",
+    "sleep": "49",
+    "groom": "15",
+    "family": "4"
+  },
+  "milestone": {
+    "PR": ["21 months with B2", "32 months without B2"]
+  },
+  "Health": {
+    "run": {
+      "hearbeat": "160bpm",
+      "distance": "5km",
+      "time": "45mins"
+    },
+    "exercise": {
+      "toetouch": ["finger", "palm"]
+    }
+  },
+  "Payment": ["Months", "Quarterly", "Half-yearly", "Yearly"]
+}

@@ -1,0 +1,12 @@
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+.idea/
+
+
+cmake-build-debug/
+garuda/garuda.iml
+src/garuda/allocation/.flattened-pom.xml

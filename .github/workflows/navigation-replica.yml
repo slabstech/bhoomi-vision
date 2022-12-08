@@ -1,0 +1,59 @@
+name: "Navigation Replica"
+on:
+  push:
+    paths:
+      - '/src/garuda/navigation/**'
+  pull_request:
+    types: [ opened, reopened, synchronize, ready_for_review ]
+    branches: [ main ]
+  release:
+    types: [ published ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  setup-build:
+    runs-on: ${{ matrix.os }}
+    name: setup-build
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-22.04
+            cuda: "11.7"
+            gcc: 10
+    permissions:
+      packages: write
+      contents: read
+    defaults:
+      run:
+        shell: bash -l {0}
+        working-directory: '/src/garuda/navigation/'
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Configure
+        run: |
+          cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Debug
+
+      - name: Build
+        run: |
+          cmake --build build --config Debug
+
+      - name: Test
+        run: |
+          cd build
+          ctest -C Debug --output-on-failure --verbose
