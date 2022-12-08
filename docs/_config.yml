@@ -1,8 +1,8 @@
 #theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 locale: en
-title: "Bhoomi"
-description: "Perpetual Habitat"
+title: "Vision"
+description: "Vision Sense Module for Perpetual Habitat"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://mangala.earth"
 logo: "/images/s_labs_logo.jpg" # path of site logo, e.g. "/images/logo.png"

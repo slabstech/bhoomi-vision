@@ -1,11 +1,5 @@
 # site navigation bar links
 
-- title: dev
-  url: /dev/
-
 - title: Research
   url: /research/
-
-- title: Book
-  url: /book/
 
