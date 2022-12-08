@@ -2,7 +2,7 @@ name: "Vision Pheno"
 on:
   push:
     paths:
-      - '/src/garuda/vision/**'
+      - '/src/vision/**'
   pull_request:
     types: [ opened, reopened, synchronize, ready_for_review ]
     branches: [ main ]
