@@ -1,4 +1,4 @@
-FROM python:3.10-slim-bullseye as build
+FROM slabstech/python as build
 RUN apt-get update && apt-get install -y --no-install-recommends \
 build-essential gcc
 
