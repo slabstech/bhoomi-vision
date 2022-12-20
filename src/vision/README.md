@@ -3,8 +3,8 @@
 
 * Dataset
   * https://drive.google.com/drive/folders/1MLOr-sfzrYJ7qH1C9ZMIPaDbJafPl2Cg?usp=sharing
-  * docker build --rm . -t slabstech/bhoomi-vision --file Dockerfile
 
+  * docker build --rm . -t slabstech/bhoomi-vision --file Dockerfile
 
 * Expected 
   * Image : python app.py image1
