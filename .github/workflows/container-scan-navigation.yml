@@ -31,7 +31,7 @@ jobs:
         shell: bash -l {0}
         working-directory: '/src/vision/'
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Build the Docker image
         run: docker build -t slabstech/bhoomi-vision  .
       - name: Run Snyk to check Docker image for vulnerabilities
