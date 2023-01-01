@@ -1,23 +1,15 @@
-# ಭೂಮಿ / Bhoomi
+# ಭೂಮಿ / Bhoomi Vision Module
 
-#### Perpetual Autonomous Habitat System
+#### Vision Model for drone navigating a greenhouse
 
-* NASA Space Apps [2022 Global Nominee](https://2022.spaceappschallenge.org/locations/magdeburg/teams)
-
-* [Demo - https://mangala.earth](https://mangala.earth)
-
-* 3 step process - Project 
-  * Download
-  * Build
-  * Run 
-
-* 3 step process - Research
-  * Measure  
-  * Build  
-  * Intervene
+![Vision Model](./docs/images/Bhoomi_Vision_Arch.png)
 
 ### Powered by
 * [S Labs Solutions, India.](https://slabstech.com)
+
+* NASA Space Apps [2022 Global Nominee](https://2022.spaceappschallenge.org/locations/magdeburg/teams)
+* [Demo - https://mangala.earth](https://mangala.earth)
+
 
 <!-- Embed Generator https://www.labnol.org/embed/google/drive/ 
 Manifest - https://www.mozilla.org/en-US/about/manifesto/
