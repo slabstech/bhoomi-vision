@@ -1,7 +1,5 @@
 """ Logic to Measure Plant Height"""
 
-
-
 import argparse
 import imutils.contours
 import cv2
